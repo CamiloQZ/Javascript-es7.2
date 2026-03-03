@@ -87,7 +87,7 @@ function convertir({ value, from, to }) {
 
 const pruebas = [
     { value: 100, from: "c", to: "f" },
-    { value: 32, from: "f", to: "c" },
+    { value: 907, from: "f", to: "c" },
     { value: 0, from: "c", to: "f" },
     { value: -40, from: "c", to: "f" },
     { value: 1500, from: "m", to: "km" },
