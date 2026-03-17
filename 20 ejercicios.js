@@ -1,40 +1,40 @@
 // Ejercicio 1
-const numeros = [2, 4, 6, 8, 10];
+const numeros1 = [2, 4, 6, 8, 10];
 
 // map recorre el arreglo y multiplica cada número por 2
-const resultado = numeros.map(num => num * 2);
+const resultado1 = numeros.map(num => num * 2);
 
-console.log(resultado); // [4, 8, 12, 16, 20]
+console.log(resultado1); // [4, 8, 12, 16, 20]
 
 
 // Ejercicio 2
-const nombres = ["ana", "luis", "marta", "pedro"];
+const nombres2 = ["ana", "luis", "marta", "pedro"];
 
-const mayusculas = nombres.map(nombre => nombre.toUpperCase());
+const mayusculas = nombres2.map(nombre => nombre.toUpperCase());
 
 console.log(mayusculas);
 
 
 // Ejercicio 3
-const palabras = ["sol", "computador", "mesa", "javascript"];
+const palabras3 = ["sol", "computador", "mesa", "javascript"];
 
-const longitudes = palabras.map(palabra => palabra.length);
+const longitudes = palabras3.map(palabra => palabra.length);
 
 console.log(longitudes); // [3, 10, 4, 10]
 
 
 // Ejercicio 4
-const numeros = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+const numeros4 = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
 
-const pares = numeros.filter(num => num % 2 === 0);
+const pares = numeros4.filter(num => num % 2 === 0);
 
 console.log(pares);
 
 
 // Ejercicio 5
-const palabras = ["casa", "ventana", "sol", "computadora", "luz"];
+const palabras5 = ["casa", "ventana", "sol", "computadora", "luz"];
 
-const largas = palabras.filter(p => p.length > 5);
+const largas = palabras5.filter(p => p.length > 5);
 
 console.log(largas);
 
@@ -53,17 +53,17 @@ console.log(aprobados);
 
 
 // Ejercicio 7
-const numeros = [5, 10, 15, 20];
+const numeros7 = [5, 10, 15, 20];
 
-const suma = numeros.reduce((acum, num) => acum + num, 0);
+const Suma = numeros7.reduce((acum, num) => acum + num, 0);
 
 console.log(suma); // 50
 
 
 // Ejercicio 8
-const numeros = [2, 3, 4];
+const numeros8 = [2, 3, 4];
 
-const producto = numeros.reduce((acum, num) => acum * num, 1);
+const producto = numeros8.reduce((acum, num) => acum * num, 1);
 
 console.log(producto); // 24
 
@@ -71,25 +71,25 @@ console.log(producto); // 24
 // Ejercicio 9
 const palabras = ["hola", "mundo", "js"];
 
-const total = palabras.reduce((acum, palabra) => acum + palabra.length, 0);
+const total9 = palabras.reduce((acum, palabra) => acum + palabra.length, 0);
 
-console.log(total);
+console.log(total9);
 
 
 // Ejercicio 10
-const numeros = [45, 12, 78, 3, 19, 1];
+const numeros10 = [45, 12, 78, 3, 19, 1];
 
 numeros.sort((a, b) => a - b);
 
-console.log(numeros);
+console.log(numeros10);
 
 
 // Ejercicio 11
-const numeros = [45, 12, 78, 3, 19, 1];
+const numeros11 = [45, 12, 78, 3, 19, 1];
 
 numeros.sort((a, b) => b - a);
 
-console.log(numeros);
+console.log(numeros11);
 
 
 // Ejercicio 12
@@ -172,7 +172,7 @@ switch (color) {
 
 
 // Ejercicio 16
-let i = 1;
+let i16 = 1;
 
 while (i <= 10) {
     console.log("5 x " + i + " = " + (5 * i));
@@ -181,7 +181,7 @@ while (i <= 10) {
 
 
 // Ejercicio 17
-let i = 10;
+let i17 = 10;
 
 while (i >= 1) {
     console.log(i);
