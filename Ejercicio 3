@@ -1,0 +1,4 @@
+const palabras = ["sol", "computador", "mesa", "javascript"];
+
+const resultado = palabras.map(p => p.length);
+console.log(resultado); // [3, 10, 4, 10]

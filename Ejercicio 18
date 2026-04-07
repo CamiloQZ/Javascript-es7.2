@@ -1,0 +1,13 @@
+let suma = 0;
+let num = 1;
+let contador = 0;
+
+while(suma < 100){
+ console.log(num);
+ suma += num;
+ num++;
+ contador++;
+}
+
+console.log("Suma:", suma);
+console.log("Cantidad:", contador);

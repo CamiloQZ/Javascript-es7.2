@@ -1,0 +1,4 @@
+const nombres = ["ana", "luis", "marta", "pedro"];
+
+const resultado = nombres.map(n => n.toUpperCase());
+console.log(resultado);

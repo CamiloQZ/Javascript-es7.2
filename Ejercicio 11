@@ -1,0 +1,2 @@
+numeros.sort((a, b) => b - a);
+console.log(numeros);

@@ -1,0 +1,4 @@
+const palabras = ["hola", "mundo", "js"];
+
+const total = palabras.reduce((acc, p) => acc + p.length, 0);
+console.log(total);

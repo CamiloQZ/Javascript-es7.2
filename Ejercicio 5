@@ -1,0 +1,4 @@
+const palabras = ["casa", "ventana", "sol", "computadora", "luz"];
+
+const resultado = palabras.filter(p => p.length > 5);
+console.log(resultado);
